@@ -1,7 +1,7 @@
 {
   "miniVersion": "v2",
-  "name": "你皮",
-  "version": "0.0.1",
+  "name": "小皮脏脏包",
+  "version": "0.0.3",
   "mini-android": {
     "sdkVersion": "1.0.11",
     "toolkitVersion": "0.8.0",
@@ -13,19 +13,22 @@
       "xweb": false
     },
     "icons": {
-      "hdpi": "",
+      "hdpi": "miniapp/android/icons/64e970a4795c9fcb57b2b5a81693020325187.png",
       "xhdpi": "",
-      "xxhdpi": "",
+      "xxhdpi": "miniapp/android/icons/64e970a4795c9fcb57b2b5a81693020325187.png",
       "xxxhdpi": ""
     },
     "splashscreen": {
-      "hdpi": "",
+      "hdpi": "miniapp/android/splashscreen/64e970a4795c9fcb57b2b5a81693020325187.png",
       "xhdpi": "",
       "xxhdpi": ""
     },
-    "enableVConsole": "open",
+    "enableVConsole": "close",
     "privacy": {
       "enable": true
+    },
+    "abi": {
+      "arm64-v8a": true
     }
   },
   "mini-ios": {
@@ -59,5 +62,5 @@
       "enable": false
     }
   },
-  "versionCode": 100
+  "versionCode": 103
 }
